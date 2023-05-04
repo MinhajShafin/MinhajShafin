@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MinhajShafin
 - 👀 I’m interested in films & music
-- 🌱 I’m currently learning c++
+- 🌱 I’m currently learning c++ & Java
 - 📫 Reach me @[discord] billy;-;#7577
 
 <!---
