@@ -1,17 +1,7 @@
-<h1 align="center">Hey there! 👋 I'm Minhaj Shafin</h1>
+<h1 align="center">Sup!🍕 I'm Minhaj Shafin</h1>
 <p align="center">
   <b>Aspiring Developer | Web Enthusiast | Tech Explorer</b>
 </p>
-
----
-
-### 🚀 About Me:
-- 💻 Passionate about **Web Development & Graph-based Algorithms**
-- 📊 Learning **Python for Data Analysis** & **React.js**
-- 🔥 Building **'Gorur Dim Grocery'** (Bangla Grocery Website)
-- 🎯 Always up for exciting projects & collaborations!
-
----
 
 ### 🛠️ Tech Stack:
 
@@ -29,27 +19,13 @@
 #### 🛢️ Database:
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
----
-
-### 🌍 Connect with Me:
-<p>
-  <a href="https://github.com/MinhajShafin" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/minhaj-shafin-0b206a252/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:minhajshafin@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
-
----
 
 ### 📊 GitHub Stats:
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=MinhajShafin&show_icons=true&theme=tokyonight" alt="GitHub Stats">
 </p>
 
----
-
 ### 🎯 Fun Fact:
 > "Code is like humor. When you have to explain it, it’s bad." 😆
 
 ---
-
-💡 *Let's create something amazing together!* 🚀
