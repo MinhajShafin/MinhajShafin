@@ -22,7 +22,7 @@
 
 ### 📊 GitHub Stats:
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MinhajShafin&show_icons=true&theme=tokyonight" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api?username=MinhajShafin&show_icons=true&theme=radical" alt="GitHub Stats">
 </p>
 
 ### 🎯 Fun Fact:
