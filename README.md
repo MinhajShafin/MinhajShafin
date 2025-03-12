@@ -1,69 +1,55 @@
-# 🚀 Welcome to My GitHub Universe! 🌌
-
-![Banner](https://user-images.githubusercontent.com/your-image-link/banner.png)
-
-## Hi there, I'm Minhaj Shafin! 👋
-
-🚀 Passionate **developer, problem-solver, and tech enthusiast** diving deep into **Web Development**, **Data Science**, and **Graph Algorithms**. Building cool projects and learning every day! 🌟
-
-### 🔥 About Me:
-- 💻 **Languages:** JavaScript, Python, SQL
-- 🌐 **Frontend:** React.js (Vite), HTML, CSS, Tailwind
-- 🛠 **Backend & Databases:** Node.js, Firebase, PostgreSQL
-- 📊 **Data Science:** Pandas, NumPy, Google Colab
-- 🤖 **Algorithms:** Dijkstra’s, Floyd-Warshall, Bellman-Ford
-- 🎯 **Currently Learning:** Next.js & AI-powered applications
+<h1 align="center">Hey there! 👋 I'm Minhaj Shafin</h1>
+<p align="center">
+  <b>Aspiring Developer | Web Enthusiast | Tech Explorer</b>
+</p>
 
 ---
 
-## 🎨 Epic Visuals
-
-💾 **My GitHub Contributions:**
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MinhajShafin&theme=radical)
-
-📊 **Most Used Languages:**
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MinhajShafin&layout=compact&theme=radical)
-
-🌍 **Where Are My Visitors From?**
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=MinhajShafin)
+### 🚀 About Me:
+- 💻 Passionate about **Web Development & Graph-based Algorithms**
+- 📊 Learning **Python for Data Analysis** & **React.js**
+- 🔥 Building **'Gorur Dim Grocery'** (Bangla Grocery Website)
+- 🎯 Always up for exciting projects & collaborations!
 
 ---
 
-## 🔥 Featured Projects
+### 🛠️ Tech Stack:
 
-🚀 **[🗺 Travel Planner Using Graphs](https://github.com/MinhajShafin/Travel-Planner)** - Efficient pathfinding with Dijkstra’s, Floyd-Warshall, Bellman-Ford.
+#### 💻 Languages:
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-🍦 **[Ice Cream Parlor Database](https://github.com/MinhajShafin/Ice-Cream-DB)** - Structured database for managing inventory & orders.
+#### 🔧 Frameworks & Tools:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 
-🛒 **[Gorur Dim Grocery](https://github.com/MinhajShafin/Gorur-Dim-Grocery)** - A Bangla grocery e-commerce platform (WIP).
-
-🔗 **More cool projects in my repos!**
-
----
-
-## 🎮 Fun Zone
-
-🎵 **Coding Vibes:** [Lo-Fi Beats to Code To](https://www.youtube.com/watch?v=5qap5aO4i9A) 🎧
-
-🎮 **Mini Game:** [Play Snake Arcade](https://www.google.com/fbx?fbx=snake_arcade) 🐍
-
-🎭 **Random Meme:** [Click here for a dev meme!](https://meme-api.com) 😆
-
-💡 **Did You Know?**
-> "The first computer bug was an actual bug—a moth stuck in a relay!" 🦋
+#### 🛢️ Database:
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
-## 📫 Let's Connect!
-
-🌍 **GitHub:** [MinhajShafin](https://github.com/MinhajShafin)
-
-📧 **Email:** minhaj.shafin@example.com *(Replace with your real email if you want)*
-
-💼 **LinkedIn:** [linkedin.com/in/minhajshafin](#) *(Add your LinkedIn profile!)*
+### 🌍 Connect with Me:
+<p>
+  <a href="https://github.com/MinhajShafin" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/minhaj-shafin-0b206a252/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:minhajshafin@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
 
 ---
 
-⚡ **Fun Fact:** I’m always looking for new challenges to tackle—so let’s collaborate! 💡
+### 📊 GitHub Stats:
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MinhajShafin&show_icons=true&theme=tokyonight" alt="GitHub Stats">
+</p>
 
-![Cool Divider](https://user-images.githubusercontent.com/your-image-link/divider.png)
+---
+
+### 🎯 Fun Fact:
+> "Code is like humor. When you have to explain it, it’s bad." 😆
+
+---
+
+💡 *Let's create something amazing together!* 🚀
