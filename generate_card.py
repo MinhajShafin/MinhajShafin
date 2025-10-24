@@ -106,9 +106,9 @@ def fetch_github_stats():
 
         # Calculate lines of code (this is complex and requires analyzing all repos)
         # For now, we'll keep the current values as placeholders
-        loc_total = 446
-        loc_add = 3
-        loc_del = 76
+        loc_total = 8008555
+        loc_add = 69
+        loc_del = 420
 
         return {
             'repos': str(total_repos).zfill(2),
@@ -131,9 +131,9 @@ def fetch_github_stats():
             'stars': 'X',
             'commits': '57',
             'followers': '03',
-            'loc_total': '446',
-            'loc_add': '3',
-            'loc_del': '76'
+            'loc_total': '8008555',
+            'loc_add': '69',
+            'loc_del': '420'
         }
 
 def calculate_dots(key_length, value_length, total_space=50):
@@ -202,7 +202,7 @@ size-adjust: 109%;
 .cc {{fill: #616e7f;}}
 text, tspan {{white-space: pre;}}
 </style>
-<rect width="985px" height="530px" fill="#161b22" rx="15"/>
+<rect width="985px" height="530px" fill="#161b225b" rx="15"/>
 <text x="15" y="30" fill="#c9d1d9" class="ascii">
 <tspan x="15" y="30">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
 <tspan x="15" y="50">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>

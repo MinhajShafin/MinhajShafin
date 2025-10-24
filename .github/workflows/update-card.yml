@@ -27,6 +27,8 @@ jobs:
           python-version: "3.x"
 
       - name: Generate updated card.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python generate_card.py
 
       - name: Check for changes

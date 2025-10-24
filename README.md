@@ -66,7 +66,7 @@ Actively exploring **full-stack development and DevOps workflows** to seamlessly
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 
 ```yaml
-About: config
+About: billy
 ```
 
 <picture>
