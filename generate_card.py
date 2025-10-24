@@ -141,6 +141,15 @@ def calculate_dots(key_length, value_length, total_space=50):
     dots_count = total_space - key_length - value_length
     return " " + "." * max(dots_count, 1) + " "
 
+def format_line(key, value, total_width=60):
+    """Format a line with proper dot alignment like neofetch"""
+    # Add ": " after key
+    key_with_colon = key + ":"
+    # Calculate dots needed
+    dots_count = total_width - len(key_with_colon) - len(value)
+    dots = " " + "." * max(dots_count, 1) + " "
+    return key_with_colon, dots, value
+
 def generate_card_svg():
     """Generate the card.svg with dynamic age and GitHub stats"""
     years, months, days = calculate_age()
@@ -149,16 +158,32 @@ def generate_card_svg():
     # Fetch GitHub stats
     stats = fetch_github_stats()
 
-    # Calculate dots for proper spacing
-    age_dots_count = 22 - len(age_string)
-    age_dots = " " + "." * age_dots_count + " "
+    # Format lines with proper alignment (key, dots, value)
+    os_key, os_dots, os_value = format_line("OS", "Android 15, Linux Mint 22.2", 50)
+    uptime_key, uptime_dots, uptime_value = format_line("Uptime", age_string, 50)
+    ide_key, ide_dots, ide_value = format_line("IDE", "VSCode", 50)
 
-    # Calculate dots for GitHub stats
-    repo_dots = " " + "." * 4 + " "
-    star_dots = " " + "." * (11 - len(stats['stars'])) + " "
-    commit_dots = " " + "." * (17 - len(stats['commits'])) + " "
-    follower_dots = " " + "." * 7 + " "
-    loc_dots = "."
+    lang_prog_key, lang_prog_dots, lang_prog_value = format_line("Languages.Programming", "Java, Python, JavaScript, C++", 50)
+    lang_comp_key, lang_comp_dots, lang_comp_value = format_line("Languages.Computer", "HTML, CSS, JSON", 50)
+    lang_real_key, lang_real_dots, lang_real_value = format_line("Languages.Real", "Bangla, English, Deutch", 50)
+
+    hobbies_key, hobbies_dots, hobbies_value = format_line("Hobbies", "Cinephillia, Photography", 50)
+    fuel_key, fuel_dots, fuel_value = format_line("Fuel", "Coffee, Pasta, Tiramisu", 50)
+
+    email_key, email_dots, email_value = format_line("Email.Personal", "minhajshafin@gmail.com", 50)
+    facebook_key, facebook_dots, facebook_value = format_line("Facebook", "Minhaj Shafin", 50)
+    instagram_key, instagram_dots, instagram_value = format_line("Instagram", "billy_x__x", 50)
+    linkedin_key, linkedin_dots, linkedin_value = format_line("LinkedIn", "MinhajShafin", 50)
+    discord_key, discord_dots, discord_value = format_line("Discord", "billy_x_x", 50)
+
+    # GitHub stats - more complex formatting
+    repos_value = f"{stats['repos']} {{Contributed: {stats['contributed']}}}"
+    followers_value = stats['followers']
+
+    # For lines with multiple values, we need custom formatting
+    repos_stars_line = f"Repos: {stats['repos']} {{Contributed: {stats['contributed']}}} | Stars: {stats['stars']}"
+    commits_followers_line = f"Commmits: {stats['commits']} | Followers: {stats['followers']}"
+    loc_line = f"Lines of Code on GitHub: {stats['loc_total']}"
 
     svg_content = f'''<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
@@ -207,28 +232,28 @@ text, tspan {{white-space: pre;}}
 </text>
 <text x="390" y="30" fill="#c9d1d9">
 <tspan x="390" y="30">MinhajShafin</tspan> -———————————————————————————————————————————-—-
-<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Android 15, Linux Mint 22.2</tspan>
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots">{age_dots}</tspan><tspan class="value" id="age_data">{age_string}</tspan>
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">{os_key}</tspan><tspan class="cc">{os_dots}</tspan><tspan class="value">{os_value}</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">{uptime_key}</tspan><tspan class="cc">{uptime_dots}</tspan><tspan class="value">{uptime_value}</tspan>
 <tspan x="390" y="90" class="cc">. </tspan>
 <tspan x="390" y="110" class="cc">. </tspan>
-<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ...............................................</tspan><tspan class="value">VSCode</tspan>
+<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">{ide_key}</tspan><tspan class="cc">{ide_dots}</tspan><tspan class="value">{ide_value}</tspan>
 <tspan x="390" y="150" class="cc">. </tspan>
-<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Java, Python, JavaScript, C++</tspan>
-<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">HTML, CSS, JSON</tspan>
-<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Bangla, English, Deutch</tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">{lang_prog_key}</tspan><tspan class="cc">{lang_prog_dots}</tspan><tspan class="value">{lang_prog_value}</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">{lang_comp_key}</tspan><tspan class="cc">{lang_comp_dots}</tspan><tspan class="value">{lang_comp_value}</tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">{lang_real_key}</tspan><tspan class="cc">{lang_real_dots}</tspan><tspan class="value">{lang_real_value}</tspan>
 <tspan x="390" y="230" class="cc">. </tspan>
-<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Cinephillia, Photography</tspan>
-<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Fuel</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">Coffee, Pasta, Tiramisu</tspan>
+<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">{hobbies_key}</tspan><tspan class="cc">{hobbies_dots}</tspan><tspan class="value">{hobbies_value}</tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">{fuel_key}</tspan><tspan class="cc">{fuel_dots}</tspan><tspan class="value">{fuel_value}</tspan>
 <tspan x="390" y="310">- Contact</tspan> -——————————————————————————————————————————————-—-
-<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">minhajshafin@gmail.com</tspan>
-<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Facebook</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">Minhaj Shafin</tspan>
-<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Instagram</tspan><tspan class="cc"> ..................................... </tspan><tspan class="value">billy_x__x</tspan>
-<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">MinhajShafin</tspan>
-<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Discord</tspan>:<tspan class="cc"> ....................................... </tspan><tspan class="value">billy_x_x</tspan>
+<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">{email_key}</tspan><tspan class="cc">{email_dots}</tspan><tspan class="value">{email_value}</tspan>
+<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">{facebook_key}</tspan><tspan class="cc">{facebook_dots}</tspan><tspan class="value">{facebook_value}</tspan>
+<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">{instagram_key}</tspan><tspan class="cc">{instagram_dots}</tspan><tspan class="value">{instagram_value}</tspan>
+<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">{linkedin_key}</tspan><tspan class="cc">{linkedin_dots}</tspan><tspan class="value">{linkedin_value}</tspan>
+<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">{discord_key}</tspan><tspan class="cc">{discord_dots}</tspan><tspan class="value">{discord_value}</tspan>
 <tspan x="390" y="450">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
-<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots">{repo_dots}</tspan><tspan class="value" id="repo_data">{stats['repos']}</tspan> {{<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">{stats['contributed']}</tspan>}} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots">{star_dots}</tspan><tspan class="value" id="star_data">{stats['stars']}</tspan>
-<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commmits</tspan>:<tspan class="cc" id="commit_data_dots">{commit_dots}</tspan><tspan class="value" id="commit_data">{stats['commits']}</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots">{follower_dots}</tspan><tspan class="value" id="follower_data">{stats['followers']}</tspan>
-<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">{loc_dots}</tspan><tspan class="value" id="loc_data">{stats['loc_total']}</tspan> ( <tspan class="addColor" id="loc_add">{stats['loc_add']}</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="delColor" id="loc_del">{stats['loc_del']}</tspan><tspan class="delColor">--</tspan> )
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="value">{repos_stars_line}</tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="value">{commits_followers_line}</tspan>
+<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">{loc_line}</tspan> <tspan class="cc">( </tspan><tspan class="addColor">{stats['loc_add']}++</tspan><tspan class="cc">, </tspan><tspan class="delColor">{stats['loc_del']}--</tspan><tspan class="cc"> )</tspan>
 </text>
 </svg>
 '''
