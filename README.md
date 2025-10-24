@@ -61,7 +61,6 @@ Actively exploring **full-stack development and DevOps workflows** to seamlessly
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=MinhajShafin&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinhajShafin&layout=compact&theme=tokyonight" alt="Top Languages" height="180"/>
 </div>
 
 <picture>
