@@ -59,10 +59,6 @@ Actively exploring **full-stack development and DevOps workflows** to seamlessly
 ![Linux](https://img.shields.io/badge/Linux-%23FCC624?style=flat&logo=linux&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MinhajShafin&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="180"/>
-</div>
-
 <picture>
     <img alt="Billy's GitHub Profile README" src="https://github.com/MinhajShafin/MinhajShafin/blob/main/card.svg">
 </picture>
