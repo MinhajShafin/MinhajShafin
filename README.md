@@ -1,8 +1,11 @@
+<script src="https://cdn.jsdelivr.net/npm/pacman-contribution-graph@2.0.0/dist/index.min.js"></script>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MinhajShafin/MinhajShafin/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MinhajShafin/MinhajShafin/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MinhajShafin/MinhajShafin/output/pacman-contribution-graph.svg">
 </picture>
+
+<br>
 
 # Minhaj Shafin
 
@@ -60,11 +63,8 @@ Actively exploring **full-stack development and DevOps workflows** to seamlessly
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 
 <div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MinhajShafin&show_icons=true&theme=dark)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MinhajShafin&layout=compact&theme=dark)
-
+  <img src="https://github-readme-stats.vercel.app/api?username=MinhajShafin&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinhajShafin&layout=compact&theme=tokyonight" alt="Top Languages" height="180"/>
 </div>
 
 <picture>
