@@ -4,7 +4,7 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MinhajShafin/MinhajShafin/output/pacman-contribution-graph.svg">
 </picture>
 
-# Minhaj Shafin
+# ˙𐃷˙ Sup! I’m Minhaj Shafin 
 
 **Aspiring Full-Stack Developer & DevOps Enthusiast** with a solid foundation in **React.js** and **Next.js**. Currently expanding expertise in **Node.js, backend development, and cloud-native DevOps practices**, focusing on building **scalable, maintainable, and high-performance web applications**.
 
