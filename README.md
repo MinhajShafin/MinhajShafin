@@ -10,20 +10,6 @@
 
 Actively exploring **full-stack development and DevOps workflows** to seamlessly bridge frontend, backend, and cloud infrastructure, delivering robust and modern solutions.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/minhaj-shafin" target="_blank">
-        <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="30" width="40"/></a>
-  <a href="https://stackoverflow.com/users/21914630/minhaj-shafin" target="_blank">
-        <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stackoverflow/stackoverflow-original.svg" alt="StackOverflow" height="30" width="40"/></a>
-  <a href="https://x.com/Billydocare" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="X/Twitter" height="30" width="40"/></a>
-  <a href="https://open.spotify.com/user/30nfvcpttliltoi252p59wdpg?si=aec355aca4c14dc1" target="_blank">
-        <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify" height="30" width="40"/></a>
-</p>
-
-<br>
-
 ## Tech Stack
 
 ### Languages & Runtimes
