@@ -12,7 +12,6 @@
   alt="Typing intro"
 />
 
----
 
 <pre>
 ┌────────────────────────────── status ──────────────────────────────┐
@@ -68,9 +67,13 @@
     <td width="34%" valign="top">
       <h3><samp>LANGUAGES</samp></h3>
       <p>
-        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-        <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
-        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="28" width="28" alt="Python" title="Python" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="28" width="28" alt="JavaScript" title="JavaScript" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="28" width="28" alt="TypeScript" title="TypeScript" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="28" width="28" alt="C" title="C" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="28" width="28" alt="C++" title="C++" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="28" width="28" alt="Java" title="Java" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="28" width="28" alt="Bash" title="Bash" />
       </p>
       <p><sub>Plus whatever the project needs (I read docs for fun, apparently).</sub></p>
     </td>
@@ -85,39 +88,24 @@
       </p>
     </td>
     <td width="33%" valign="top">
-      <h3><samp>DEFAULTS</samp></h3>
+      <h3><samp>TOOLS</samp></h3>
       <p>
-        <kbd>minimal</kbd>
-        <kbd>readable</kbd>
-        <kbd>maintainable</kbd>
-        <kbd>boring-in-a-good-way</kbd>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="28" width="28" alt="Git" title="Git" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="28" width="28" alt="Linux" title="Linux" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="28" width="28" alt="Docker" title="Docker" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="28" width="28" alt="Node.js" title="Node.js" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="28" width="28" alt="React" title="React" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="28" width="28" alt="Next.js" title="Next.js" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="28" width="28" alt="Tailwind CSS" title="Tailwind CSS" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="28" width="28" alt="PostgreSQL" title="PostgreSQL" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="28" width="28" alt="VS Code" title="VS Code" />
       </p>
-      <p><sub>"Fancy" is fine as long as it's debug-friendly.</sub></p>
     </td>
   </tr>
 </table>
 
 <br/>
 
-<div align="center">
-
-<h2><samp>COLLAB</samp></h2>
-<sub>Building something useful (or delightfully unnecessary)? Let's talk.</sub>
-
-<br/>
-
-<a href="https://github.com/MinhajShafin?tab=repositories">
-  <img alt="Open to collaborate" src="https://img.shields.io/badge/Open_to_collaboration-39D353?style=for-the-badge" />
-</a>
-<a href="https://github.com/MinhajShafin">
-  <img alt="Say hi" src="https://img.shields.io/badge/Say_hi-0A66C2?style=for-the-badge" />
-</a>
-
-<br/>
-<br/>
-
----
-
-<sup>PS: If this README looks calm, it's because the chaos is neatly organized.</sup>
+<h6><samp>PS: If this README looks calm, it's because the chaos is neatly organized.</samp></h6>
 
 </div>
