@@ -82,6 +82,9 @@
         <kbd>web</kbd>
         <kbd>clean UX</kbd>
         <kbd>performance</kbd>
+        <kbd>testing</kbd>
+        <kbd>APIs</kbd>
+        <kbd>security</kbd>
       </p>
     </td>
     <td width="33%" valign="top">
@@ -90,11 +93,15 @@
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="28" width="28" alt="Git" title="Git" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="28" width="28" alt="Linux" title="Linux" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="28" width="28" alt="Docker" title="Docker" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="28" width="28" alt="GitHub" title="GitHub" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="28" width="28" alt="Node.js" title="Node.js" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="28" width="28" alt="React" title="React" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="28" width="28" alt="Next.js" title="Next.js" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="28" width="28" alt="Tailwind CSS" title="Tailwind CSS" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="28" width="28" alt="Redis" title="Redis" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="28" width="28" alt="PostgreSQL" title="PostgreSQL" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="28" width="28" alt="Nginx" title="Nginx" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="28" width="28" alt="Kubernetes" title="Kubernetes" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="28" width="28" alt="VS Code" title="VS Code" />
       </p>
     </td>
