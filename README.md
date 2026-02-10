@@ -107,10 +107,9 @@
     </td>
   </tr>
 </table>
-
-<h6><samp>PS: If this README looks calm, it's because the chaos is neatly organized.</samp></h6>
-
 </div>
 
 [![Minhaj Shafin's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MinhajShafin&theme=github-compact)](https://github.com/MinhajShafin/github-readme-activity-graph)
+
+<h6><samp>PS: If this README looks calm, it's because the chaos is neatly organized.</samp></h6>
 
