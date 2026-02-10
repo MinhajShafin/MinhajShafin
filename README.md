@@ -30,8 +30,8 @@
 <h2><samp>NOW</samp></h2>
 <sub>What I'm focused on right now</sub>
 
-</div>
 
+</br>
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
@@ -54,6 +54,7 @@
     </td>
   </tr>
 </table>
+</div>
 
 <br/>
 
