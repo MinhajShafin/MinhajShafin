@@ -30,7 +30,7 @@
 <div align="center">
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td valign="top">
       <h3><samp>BUILDING</samp></h3>
       <p><sub>Shipping, iterating, and keeping diffs pleasantly small.</sub></p>
       <p>
@@ -39,7 +39,7 @@
         <kbd>small diffs</kbd>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td valign="top">
       <h3><samp>LEARNING</samp></h3>
       <p><sub>Something new every week (and re-learning it on Monday).</sub></p>
       <p>
