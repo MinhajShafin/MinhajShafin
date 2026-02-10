@@ -4,7 +4,7 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MinhajShafin/MinhajShafin/output/pacman-contribution-graph.svg">
 </picture>
 
-# <samp> ˙𐃷˙ Sup! I’m Minhaj Shafin </samp>
+<samp> ˙𐃷˙ Sup! </samp>
 
 ─────
 <div align="center">
@@ -30,11 +30,9 @@
 <h2><samp>NOW</samp></h2>
 <sub>What I'm focused on right now</sub>
 
-
-</br>
-<table width="100%">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: 0 !important;">
       <h3><samp>BUILDING</samp></h3>
       <p><sub>Shipping, iterating, and keeping diffs pleasantly small.</sub></p>
       <p>
@@ -43,7 +41,7 @@
         <kbd>small diffs</kbd>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: 0 !important;">
       <h3><samp>LEARNING</samp></h3>
       <p><sub>Something new every week (and re-learning it on Monday).</sub></p>
       <p>
@@ -65,9 +63,9 @@
 
 </div>
 
-<table width="100%">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
   <tr>
-    <td width="34%" valign="top">
+    <td width="34%" valign="top" style="border: 0 !important;">
       <h3><samp>LANGUAGES</samp></h3>
       <p>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="28" width="28" alt="Python" title="Python" />
@@ -80,7 +78,7 @@
       </p>
       <p><sub>Plus whatever the project needs (I read docs for fun, apparently).</sub></p>
     </td>
-    <td width="33%" valign="top">
+    <td width="33%" valign="top" style="border: 0 !important;">
       <h3><samp>FOCUS</samp></h3>
       <p>
         <kbd>automation</kbd>
@@ -90,7 +88,7 @@
         <kbd>performance</kbd>
       </p>
     </td>
-    <td width="33%" valign="top">
+    <td width="33%" valign="top" style="border: 0 !important;">
       <h3><samp>TOOLS</samp></h3>
       <p>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="28" width="28" alt="Git" title="Git" />
