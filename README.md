@@ -4,9 +4,8 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MinhajShafin/MinhajShafin/output/pacman-contribution-graph.svg">
 </picture>
 
-<samp> ˙𐃷˙ Sup! </samp>
+<samp> ˙𐃷˙ Sup! I’m Minhaj Shafin </samp>
 
-─────
 <div align="center">
 
 <img
@@ -23,16 +22,15 @@
 
 </div>
 
-<br/>
+<div align="center">
+<h2><samp>NOW</samp></h2>
+<sup>What I'm focused on right now</sup>
+</div>
 
 <div align="center">
-
-<h2><samp>NOW</samp></h2>
-<sub>What I'm focused on right now</sub>
-
-<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+<table width="100%">
   <tr>
-    <td width="50%" valign="top" style="border: 0 !important;">
+    <td width="50%" valign="top">
       <h3><samp>BUILDING</samp></h3>
       <p><sub>Shipping, iterating, and keeping diffs pleasantly small.</sub></p>
       <p>
@@ -41,7 +39,7 @@
         <kbd>small diffs</kbd>
       </p>
     </td>
-    <td width="50%" valign="top" style="border: 0 !important;">
+    <td width="50%" valign="top">
       <h3><samp>LEARNING</samp></h3>
       <p><sub>Something new every week (and re-learning it on Monday).</sub></p>
       <p>
@@ -54,18 +52,16 @@
 </table>
 </div>
 
-<br/>
-
 <div align="center">
 
 <h2><samp>STACK</samp></h2>
-<sub>Tools I reach for and the kind of problems I enjoy</sub>
+<sup>Tools I reach for and the kind of problems I enjoy</sup>
 
 </div>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+<table width="100%">
   <tr>
-    <td width="34%" valign="top" style="border: 0 !important;">
+    <td width="34%" valign="top">
       <h3><samp>LANGUAGES</samp></h3>
       <p>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="28" width="28" alt="Python" title="Python" />
@@ -78,7 +74,7 @@
       </p>
       <p><sub>Plus whatever the project needs (I read docs for fun, apparently).</sub></p>
     </td>
-    <td width="33%" valign="top" style="border: 0 !important;">
+    <td width="33%" valign="top">
       <h3><samp>FOCUS</samp></h3>
       <p>
         <kbd>automation</kbd>
@@ -88,7 +84,7 @@
         <kbd>performance</kbd>
       </p>
     </td>
-    <td width="33%" valign="top" style="border: 0 !important;">
+    <td width="33%" valign="top">
       <h3><samp>TOOLS</samp></h3>
       <p>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="28" width="28" alt="Git" title="Git" />
@@ -104,8 +100,6 @@
     </td>
   </tr>
 </table>
-
-<br/>
 
 <h6><samp>PS: If this README looks calm, it's because the chaos is neatly organized.</samp></h6>
 
