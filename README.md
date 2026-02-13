@@ -4,6 +4,7 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MinhajShafin/MinhajShafin/output/pacman-contribution-graph.svg">
 </picture>
 
+<a href="https://minhajshafin.vercel.app/" style="color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer">
 <samp> ˙𐃷˙ Sup! I’m Minhaj Shafin </samp>
 
 <div align="center">
@@ -12,7 +13,6 @@
   src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1200&color=39D353&center=true&vCenter=true&width=560&lines=I+build+small%2C+clean+things+(that+usually+behave).;I+like+tools+that+get+out+of+the+way.;If+it+breaks%2C+I+write+a+test+(eventually)."
   alt="Typing intro"
 />
-
 
 <pre>
 ┌────────────────────────────── status ──────────────────────────────┐
@@ -108,8 +108,8 @@
   </tr>
 </table>
 </div>
+</a>
 
 [![Minhaj Shafin's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MinhajShafin&theme=github-compact)](https://github.com/MinhajShafin/github-readme-activity-graph)
 
 <h6><samp>PS: If this README looks calm, it's because the chaos is neatly organized.</samp></h6>
-
