@@ -5,7 +5,7 @@
 </picture>
 
 <a href="https://minhajshafin.vercel.app/" style="color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer">
-<samp> ˙𐃷˙ Sup! I’m Minhaj Shafin </samp>
+<samp> ˙𐃷˙ Sup! I’m Minhaj Shafin </samp></a>
 
 <div align="center">
 
@@ -108,7 +108,6 @@
   </tr>
 </table>
 </div>
-</a>
 
 [![Minhaj Shafin's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MinhajShafin&theme=github-compact)](https://github.com/MinhajShafin/github-readme-activity-graph)
 
