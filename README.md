@@ -4,8 +4,9 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MinhajShafin/MinhajShafin/output/pacman-contribution-graph.svg">
 </picture>
 
-<a href="https://minhajshafin.vercel.app/" style="color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer">
-<samp> ˙𐃷˙ Sup! I’m Minhaj Shafin </samp></a>
+<a href="https://minhajshafin.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <img src="assets/name.svg" alt="Sup! I’m Minhaj Shafin" />
+</a>
 
 <div align="center">
 
