@@ -64,7 +64,6 @@
   <tr>
     <td width="34%" valign="top">
       <h3><samp>LANGUAGES</samp></h3>
-      <p>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="28" width="28" alt="Python" title="Python" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="28" width="28" alt="JavaScript" title="JavaScript" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="28" width="28" alt="TypeScript" title="TypeScript" />
@@ -72,7 +71,6 @@
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="28" width="28" alt="C++" title="C++" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="28" width="28" alt="Java" title="Java" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="28" width="28" alt="Bash" title="Bash" />
-      </p>
       <p><sub>Plus whatever the project needs (I read docs for fun, apparently).</sub></p>
     </td>
     <td width="33%" valign="top">
@@ -90,7 +88,6 @@
     </td>
     <td width="33%" valign="top">
       <h3><samp>TOOLS</samp></h3>
-      <p>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="28" width="28" alt="Git" title="Git" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="28" width="28" alt="Linux" title="Linux" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="28" width="28" alt="Docker" title="Docker" />
@@ -104,7 +101,6 @@
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="28" width="28" alt="Nginx" title="Nginx" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="28" width="28" alt="Kubernetes" title="Kubernetes" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="28" width="28" alt="VS Code" title="VS Code" />
-      </p>
     </td>
   </tr>
 </table>
