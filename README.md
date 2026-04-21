@@ -62,7 +62,7 @@
 
 <table width="100%">
   <tr>
-    <td width="34%" valign="top">
+    <td width="34%" valign="top" align="center">
       <h3><samp>LANGUAGES</samp></h3>
       <table>
         <tr>
@@ -80,7 +80,7 @@
       </table>
       <p><sub>Plus whatever the project needs (I read docs for fun, apparently).</sub></p>
     </td>
-    <td width="33%" valign="top">
+    <td width="33%" valign="top" align="center">
       <h3><samp>FOCUS</samp></h3>
       <p>
         <kbd>automation</kbd>
@@ -93,7 +93,7 @@
         <kbd>security</kbd>
       </p>
     </td>
-    <td width="33%" valign="top">
+    <td width="33%" valign="top" align="center">
       <h3><samp>TOOLS</samp></h3>
       <table>
         <tr>
