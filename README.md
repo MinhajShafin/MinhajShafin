@@ -78,7 +78,7 @@
           <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="28" width="28" alt="Go" title="Go" /></td>
         </tr>
       </table>
-      <p><sub>Plus whatever the project needs (I read docs for fun, apparently).</sub></p>
+      <p><sub>Plus whatever the project needs.</sub> <br> <sub>(I read docs for fun, apparently)</sub> </p>
     </td>
     <td width="33%" valign="top" align="center">
       <h3><samp>FOCUS</samp></h3>
